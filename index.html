@@ -4,89 +4,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LinkPoint Systems</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header class="hero">
+    <header class="site-header">
+        <img src="assets/logo.png" alt="LinkPoint Systems logo" class="logo">
 
-        <div class="overlay">
-
-            <h1>LinkPoint Systems</h1>
-
-            <p class="tagline">
-                Remote Infrastructure Automation
-            </p>
-
-            <p class="description">
-                Professional automation and monitoring systems for
-                waterfront properties, gates, fuel systems,
-                and remote infrastructure.
-            </p>
-
-        </div>
-
+        <nav>
+            <a href="#products">Systems</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
 
-    <section class="products">
+    <main>
 
-        <div class="product-card">
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">Remote Infrastructure Automation</p>
 
-            <h2>ShoreLink</h2>
+                <h1>Control and monitoring systems built for real-world infrastructure.</h1>
+
+                <p class="hero-text">
+                    LinkPoint Systems develops rugged remote automation solutions for docks,
+                    gates, fuel systems, waterfront properties, and distributed equipment.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#products" class="button primary">View Systems</a>
+                    <a href="#contact" class="button secondary">Contact Us</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="products-section">
+            <h2>Product Systems</h2>
+
+            <div class="product-grid">
+                <div class="product-card">
+                    <h3>ShoreLink</h3>
+                    <p>
+                        Waterfront automation for dock lights, boat lifts, fish lights,
+                        aerators, pumps, and remote lake property equipment.
+                    </p>
+                </div>
+
+                <div class="product-card">
+                    <h3>GateLink</h3>
+                    <p>
+                        Remote gate control and access systems using cellular and
+                        long-range communication options.
+                    </p>
+                </div>
+
+                <div class="product-card">
+                    <h3>FuelWatch</h3>
+                    <p>
+                        Fuel monitoring and pump control systems for tracking usage,
+                        managing access, and sending alerts.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div>
+                <p class="eyebrow">Built for practical control</p>
+                <h2>Designed for places where normal Wi-Fi is not enough.</h2>
+            </div>
 
             <p>
-                Smart waterfront automation systems for docks,
-                boat lifts, lighting, aerators, and lake properties.
+                LinkPoint Systems focuses on practical automation for real equipment in
+                real environments. Our systems are being developed around long-range LoRa
+                communication, cellular connectivity, local control interfaces, and
+                professional installation practices.
             </p>
+        </section>
 
-        </div>
-
-        <div class="product-card">
-
-            <h2>GateLink</h2>
-
+        <section class="status-section">
+            <h2>Systems in Development</h2>
             <p>
-                Remote gate access and infrastructure control systems
-                with cellular and LoRa connectivity.
+                LinkPoint Systems is currently building and testing early versions of its
+                remote automation platforms. More product details, installation options,
+                and service availability will be announced soon.
             </p>
+        </section>
 
-        </div>
-
-        <div class="product-card">
-
-            <h2>FuelWatch</h2>
-
+        <section id="contact" class="contact-section">
+            <h2>Contact LinkPoint Systems</h2>
             <p>
-                Remote fuel tank monitoring, pump control,
-                usage tracking, and alert systems.
+                For project inquiries, early system discussions, or installation interest,
+                contact us below.
             </p>
 
-        </div>
+            <a href="mailto:info@linkpointsystems.com" class="email-link">
+                info@linkpointsystems.com
+            </a>
+        </section>
 
-    </section>
+    </main>
 
-    <section class="coming-soon">
-
-        <h2>Professional Systems Coming Soon</h2>
-
-        <p>
-            LinkPoint Systems is currently developing advanced
-            industrial-grade automation and monitoring solutions.
-        </p>
-
-    </section>
-
-    <section class="contact">
-
-        <h2>Contact</h2>
-
-        <p>Email: info@linkpointsystems.com</p>
-
-    </section>
+    <footer>
+        <p>© 2026 LinkPoint Systems. All rights reserved.</p>
+    </footer>
 
     <script src="script.js"></script>
-
 </body>
 </html>
